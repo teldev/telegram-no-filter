@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="دانلود ایرگرام، بهترین تلگرام ضد فیلتر و بدون فیلتر با پروکسی داخلی رایگان و امکانات پیشرفته.">
+    <meta name="keywords" content="تلگرام ضد فیلتر, تلگرام بدون فیلتر, دانلود تلگرام ضد فیلتر, دانلود تلگرام بدون فیلتر, تلگرام فارسی ضد فیلتر, تلگرام پیشرفته">
+    <meta name="author" content="Irgram Team">
+    <title>ایرگرام - تلگرام ضد فیلتر و بدون فیلتر</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* تنظیمات کلی */
+        body {
+            font-family: 'Vazir', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(180deg, #f3f4f7, #e7effc);
+            color: #333;
+            line-height: 1.8;
+        }
+
+        header {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            padding: 40px 10%;
+            text-align: center;
+            color: #fff;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        header p {
+            font-size: 1.3rem;
+            margin: 10px 0;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 15px;
+            font-size: 1.1rem;
+            padding: 10px 15px;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.3);
+            color: #000;
+        }
+
+        main {
+            padding: 30px 10%;
+        }
+
+        section {
+            margin-bottom: 50px;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(240, 250, 255, 0.9));
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            color: #2575fc;
+            font-size: 2rem;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            font-size: 1.2rem;
+            color: #444;
+        }
+
+        ul li strong {
+            color: #6a11cb;
+        }
+
+        /* طراحی دکمه دانلود */
+        .download-btn {
+            display: inline-block;
+            padding: 18px 40px; /* تغییر padding برای بزرگتر شدن دکمه */
+            margin-top: 30px;
+            background-color: #4c8bf5;
+            color: #fff;
+            font-size: 20px; /* افزایش سایز فونت برای بزرگتر بودن */
+            border-radius: 50px;
+            text-decoration: none;
+            border: 2px solid #4c8bf5;
+            position: relative;
+            overflow: hidden;
+            text-align: center; /* وسط‌چین کردن متن */
+            width: auto; /* برای اینکه عرض به اندازه‌ی متن باشد */
+        }
+
+        .download-btn:hover {
+            background-color: #3577e3;
+            border-color: #3577e3;
+        }
+
+        .download-btn::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 2px dashed #fff;
+            animation: move-dashed-line 1s infinite linear;
+        }
+
+        @keyframes move-dashed-line {
+            0% {
+                left: -100%;
+            }
+            50% {
+                left: 100%;
+            }
+            100% {
+                left: -100%;
+            }
+        }
+
+        footer {
+            text-align: center;
+            background: #2575fc;
+            padding: 20px;
+            color: #fff;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+
+        footer ul li a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1.1rem;
+            }
+
+            .download-btn {
+                font-size: 1.5rem;
+                padding: 15px 35px; /* برای موبایل هم اندازه مناسب است */
+            }
+        }
+
+   /* استایل لینک‌ها در منو */
+    nav a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: rgba(255, 255, 255, 0.4);
+        border-radius: 5px;
+        margin: 5px;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1rem;
+        text-align: center;
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+        border: 2px solid rgba(255, 255, 255, 0.4);
+    }
+
+    /* افکت برای گزینه دانلود در منو */
+    .download-link {
+        position: relative;
+        display: inline-block;
+       
+    }
+
+    .download-link:hover {
+        background-color: rgba(255, 255, 255, 0.7);
+        color: #000;
+        border-color: #3577e3;
+    }
+
+    .download-link::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 2px dashed #fff;
+        animation: move-dashed-line 0.1s infinite linear; /* افکت دایمی */
+    }
+
+    @keyframes move-dashed-line {
+        0% {
+            left: -5%;
+        }
+
+        50% {
+            left: 5%;
+        }
+
+        100% {
+            left: -10%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        header {
+            padding: 40px 5%;
+        }
+        /* تغییر استایل لینک‌ها در موبایل */
+        nav a {
+            width: 100%;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ایرگرام: تلگرام ضد فیلتر و بدون فیلتر</h1>
+        <p>دانلود بهترین نسخه تلگرام ضد فیلتر با امکانات پیشرفته و پروکسی داخلی رایگان</p>
+        <nav>
+            <a href="#features">ویژگی‌ها</a>
+			<a href="#download"  class="download-link">دانلود</a>
+            <a href="#advanced-features">ویژگی‌های پیشرفته</a>
+            <a href="#faq">سوالات متداول</a>
+        </nav>
+    </header>
+    <main>
+        <section id="features">
+            <h2>ویژگی‌های ایرگرام</h2>
+            <ul>
+                <li><strong>تلگرام ضد فیلتر:</strong> دسترسی بدون نیاز به فیلترشکن یا VPN</li>
+                <li><strong>پروکسی داخلی رایگان:</strong> اتصال سریع و امن به سرورهای پروکسی</li>
+                <li><strong>حالت روح:</strong> مشاهده پیام‌ها بدون نمایش تیک دوم</li>
+                <li><strong>مدیریت حرفه‌ای چت‌ها:</strong> دسته‌بندی و مرتب‌سازی پیام‌ها</li>
+                <li><strong>سرعت بالا:</strong> دانلود فایل‌ها و رسانه‌ها با سرعت فوق‌العاده</li>
+                <li><strong>شخصی‌سازی پیشرفته:</strong> تغییر تم، فونت و رنگ‌بندی</li>
+            </ul>
+        </section>
+
+<center>
+        <section id="download">
+            <h2>دانلود ایرگرام</h2>
+            <p>برای دانلود آخرین نسخه ایرگرام، روی لینک زیر کلیک کنید:</p>
+            <a href="https://github.com/telegram2025/telegram-no-filter/releases/download/V11.2.3/telegram-no-filter.apk" class="download-btn">دانلود ایرگرام</a>
+            <p><small>حجم فایل: 49 مگابایت | نسخه: 11.2.3| سیستم عامل: اندروید5.0 و بالاتر</small></p>
+        </section>
+
+</center>
+        <!-- بخش ویژگی‌های پیشرفته ایرگرام -->
+        <section id="advanced-features">
+            <h2>ویژگی‌های پیشرفته ایرگرام</h2>
+            <ul>
+                <li><strong>پروکسی داخلی و ضد فیلتر:</strong> ایرگرام از یک پروکسی داخلی قدرتمند برای دسترسی بدون محدودیت به تلگرام استفاده می‌کند و امکان استفاده از تلگرام بدون نیاز به فیلترشکن را فراهم می‌آورد.</li>
+                <li><strong>حالت روح (Ghost Mode):</strong> شما می‌توانید وضعیت آنلاین خود را مخفی کرده و بدون نمایش تیک دوم پیام‌ها را مشاهده کنید.</li>
+                <li><strong>پنهان کردن مکالمات و امنیت بالا:</strong> قابلیت مخفی کردن مکالمات و تنظیم رمز عبور برای دسترسی به آن‌ها، به شما امنیت بیشتری می‌دهد.</li>
+                <li><strong>پروکسی خودکار:</strong> پروکسی‌های خودکار و تغییر آن‌ها به صورت روزانه باعث می‌شود که همیشه از بهترین سرعت و دسترسی به تلگرام بهره‌مند شوید.</li>
+                <li><strong>ارسال پیشرفته:</strong> قابلیت ارسال پیشرفته متن، تصاویر و ویدئوها به صورت حرفه‌ای و بدون محدودیت.</li>
+                <li><strong>نمایش پیام‌های حذف شده و ویرایش شده:</strong> ایرگرام به شما این امکان را می‌دهد تا پیام‌های حذف شده و ویرایش شده را مشاهده کنید.</li>
+                <li><strong>پشتیبانی از تماس‌ها و چت‌های مخفی:</strong> تماس‌های امن و چت‌های مخفی با قابلیت مشاهده تغییرات مخاطبین، برای تجربه‌ای امن‌تر و خصوصی‌تر.</li>
+                <li><strong>طراحی مدرن و جذاب:</strong> رابط کاربری ایرگرام با طراحی زیبا و مدرن، تجربه کاربری راحت و جذاب‌تری را برای شما فراهم می‌کند.</li>
+                <li><strong>پشتیبانی از فایل‌ها با نام اصلی:</strong> ایرگرام به شما این امکان را می‌دهد که فایل‌ها را با نام اصلی آن‌ها ذخیره کنید و تجربه کاربری بهتری داشته باشید.</li>
+            </ul>
+        </section>
+
+
+        <section id="faq">
+            <h2>سوالات متداول</h2>
+            <h3>آیا ایرگرام واقعاً تلگرام ضد فیلتر است؟</h3>
+            <p>بله، ایرگرام با پروکسی داخلی رایگان، امکان اتصال بدون نیاز به فیلترشکن را فراهم می‌کند.</p>
+            <h3>چه تفاوتی با تلگرام اصلی دارد؟</h3>
+            <p>ایرگرام علاوه بر امکانات تلگرام اصلی، ویژگی‌هایی مانند حالت روح، مدیریت حرفه‌ای چت‌ها و سرعت بالاتر را ارائه می‌دهد.</p>
+            <h3>آیا استفاده از ایرگرام امن است؟</h3>
+            <p>بله، ایرگرام از همان استانداردهای امنیتی تلگرام بهره می‌برد و حریم خصوصی شما را کاملاً حفظ می‌کند.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 ایرگرام | تمام حقوق محفوظ است.</p>
+        <ul>
+            <li><a href="mailto:support@airgram.pro">پشتیبانی</a></li>
+            <li><a href="https://t.me/air_gram">کانال تلگرام</a></li>
+            <li><a href="https://github.com/telegram2025/telegram-no-filter/releases/tag/V11.2.3">مخزن گیتهاب</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
